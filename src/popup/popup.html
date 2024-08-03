@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="popup.css">
-        <title>Insécables</title>
-    </head>
-    <body>
-        <h1 class="test-h1">Insécables</h1>
-        <script src="popup.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Insécables</title>
+  </head>
+  <body>
+    <h1 class="test-h1">Insécables</h1>
+    <div class="list">
+      <!-- Espaces insécables -->
+      <div class="element">
+        <p data-text-value="&nbsp;:"><span class="nbsp">&nbsp;</span>:</p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <div class="element">
+        <p data-text-value="«&nbsp;&nbsp;»">
+          «<span class="nbsp">&nbsp;</span><span class="nbsp">&nbsp;</span>»
+        </p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <div class="element">
+        <p data-text-value="&nbsp;: «&nbsp;&nbsp;»">
+          <span class="nbsp">&nbsp;</span>: «<span class="nbsp">&nbsp;</span><span class="nbsp">&nbsp;</span>»
+        </p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <div class="element">
+        <p data-text-value="&nbsp;">
+          <span class="nbsp">&nbsp;</span>
+        </p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <!-- Espaces fines insécables avant les signes de ponctuation haute -->
+      <div class="element">
+        <p data-text-value="&#8239;?">
+          <span class="narrow-no-break-space">&nbsp;</span>?
+        </p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <div class="element">
+        <p data-text-value="&#8239;!">
+          <span class="narrow-no-break-space">&nbsp;</span>!
+        </p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <div class="element">
+        <p data-text-value="&#8239;;">
+          <span class="narrow-no-break-space">&nbsp;</span>;
+        </p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <div class="element">
+        <p data-text-value="&#8239;">
+          <span class="narrow-no-break-space">&nbsp;</span>
+        </p>
+        <button class="copyButton">Copier</button>
+      </div>
+
+      <!-- Autres signes -->
+      <div class="element">
+        <p data-text-value="…">…</p>
+        <button class="copyButton">Copier</button>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
 </html>
