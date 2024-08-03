@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Insécables",
+    "version": "1.0.0",
+    "author": "leoncik",
+    "description": "Vos espaces insécables à portée de main.",
+    "homepage_url": "https://github.com/leoncik/Insecables",
+    "icons": {
+      "48": "src/icônes/icon-48.png"
+    },
+    "action": {
+      "default_icon": "src/icônes/icon-48.png",
+      "default_title": "Insécables",
+      "default_popup": "src/popup/popup.html"
+    }
+  }
