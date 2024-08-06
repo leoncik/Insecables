@@ -19,6 +19,12 @@ body {
   border-radius: 5px;
 }
 
+.copy-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 .nbsp {
   background-color: gray;
 }
