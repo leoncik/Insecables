@@ -23,6 +23,8 @@ N'ayant pas encore publié cette extension, vous devez la charger localement dan
 
 ## Aperçu
 
+![image](https://github.com/user-attachments/assets/52b4888c-7178-4cec-8329-4af8e67c3550)
+
 ## Utilisation
 
 - Cliquez sur l'icône de l'extension pour l'ouvrir.
