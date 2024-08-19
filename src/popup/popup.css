@@ -5,6 +5,11 @@ body {
     align-items: center;
 }
 
+h1 {
+  visibility: hidden;
+  font-size: 0;
+}
+
 .list {
     display: flex;
     justify-content: center;
