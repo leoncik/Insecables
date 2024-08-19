@@ -19,7 +19,7 @@ Insécables
 
 ## Installation
 
-N'ayant pas encore publié cette extension, vous devez la charger localement dans votre navigateur afin de pouvoir l'utiliser. Référez-vous à la procédure d'installation propre à votre navigateur. À titre indicatif voici celle de chrome&nbsp;: https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=fr#load-
+N'ayant pas encore publié cette extension, vous devez la charger localement dans votre navigateur afin de pouvoir l'utiliser. Référez-vous à la procédure d'installation propre à votre navigateur. À titre indicatif voici celle de Chrome&nbsp;: https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=fr#load-
 
 ## Aperçu
 
